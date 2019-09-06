@@ -1,0 +1,87 @@
+;This file was created by Graph (http://www.padowan.dk)
+;Do not change this file from other programs.
+[Graph]
+Version = 4.4.2.543
+MinVersion = 2.5
+OS = Windows NT 6.2 
+
+[Axes]
+xMin = -0.32526598
+xMax = 11.8170734
+xTickUnit = 1
+xGridUnit = 1
+xAutoTick = 0
+xLabel = m
+yMin = -0.0751608
+yMax = 1.74619011
+yTickUnit = 0.5
+yGridUnit = 0.5
+yLabel = r^2 *10, mm^2
+AxesColor = clBlue
+GridColor = 0x00FF9999
+LabelFont = Times New Roman,26,clBlack,B
+LegendFont = Times New Roman,28,clBlack
+ShowLegend = 1
+Radian = 1
+Title = Зависимость r^2(m)
+
+[PointSeries1]
+FillColor = clBlue
+LineColor = clBlue
+Size = 5
+Style = 3
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 10
+Points = 1,0.09;2,0.18;3,0.32;4,0.46;5,0.6;6,0.72;7,0.88;8,1.01;9,1.13;10,1.26;
+LegendText = Темные кольца
+
+[PointSeries2]
+FillColor = clRed
+LineColor = clRed
+Size = 5
+Style = 0
+Font = Tahoma,14,clBlack
+LabelPosition = 1
+PointCount = 10
+Points = 1,0.12;2,0.25;3,0.38;4,0.52;5,0.66;6,0.82;7,0.94;8,1.06;9,1.25;10,1.35;
+LegendText = Cветлые кольца
+
+[Label1]
+Placement = 0
+Pos = 3.11742353809038;1.25944978060345
+Rotation = 30
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}{\\f1\\fnil\\fcharset204{\\*\\fname Times New Roman;}Times New Roman CYR;}{\\f2\\fnil Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\lang1033\\f0\\fs96 y=0.13\\lang1049\\f1 8\\lang1033\\f0 7x\\lang1049\\f1 -0.028\\f2\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Label2]
+Placement = 0
+Pos = 7.15306986263848;0.864300373405172
+Text = {\\rtf1\\ansi\\ansicpg1251\\deff0\\deflang1049{\\fonttbl{\\f0\\fnil\\fcharset0 Times New Roman;}}\n{\\colortbl ;\\red0\\green0\\blue0;}\n\\viewkind4\\uc1\\pard\\cf1\\f0\\fs96 y=0.1236x\\par\n}\n
+BackgroundColor = clNone
+ShowInLegend = 0
+
+[Func1]
+FuncType = 0
+y = 0.12358442*x+0
+ShowInLegend = 0
+LegendText = f(x)=0.1236*x+0; R²=0.992
+Color = clBlue
+
+[Func2]
+FuncType = 0
+y = 0.13872727*x-0.028
+ShowInLegend = 0
+LegendText = f(x)=0.1387*x-0.028; R²=0.9988
+Style = 1
+Color = clBlue
+
+[Data]
+TextLabelCount = 2
+FuncCount = 2
+PointSeriesCount = 2
+ShadeCount = 0
+RelationCount = 0
+OleObjectCount = 0
+
